@@ -21,5 +21,7 @@ module Webrat
       FieldLocator.new(@session, dom, *args).locate!
     end
     
+    alias_method :find_field, :field
+    
   end
 end

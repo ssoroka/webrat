@@ -43,7 +43,7 @@ module Webrat
       :clicks_button, :click_button,
       :reload, :reloads,
       :clicks_link_within, :click_link_within,
-      :field_labeled,
+      :field_labeled, :field_named, :field_by_id, :field, :find_field
       :select_option,
       :set_hidden_field, :submit_form,
       :request_page, :current_dom,
@@ -54,8 +54,5 @@ module Webrat
       :field_with_id,
       :selenium,
       :simulate, :automate
-      
-      
-    
   end
 end
